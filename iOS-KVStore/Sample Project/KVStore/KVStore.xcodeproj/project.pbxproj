@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071473781D0AEBB400A3A847 /* NDUserDefaultsKVStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071473771D0AEBB400A3A847 /* NDUserDefaultsKVStore.swift */; };
+		07C761A81CFC515500859E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C761A71CFC515500859E92 /* AppDelegate.swift */; };
+		07C761AA1CFC515500859E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C761A91CFC515500859E92 /* ViewController.swift */; };
+		07C761AD1CFC515500859E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C761AB1CFC515500859E92 /* Main.storyboard */; };
+		07C761AF1CFC515500859E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C761AE1CFC515500859E92 /* Assets.xcassets */; };
+		07C761B21CFC515500859E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C761B01CFC515500859E92 /* LaunchScreen.storyboard */; };
+		07C761BD1CFC515500859E92 /* KVStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C761BC1CFC515500859E92 /* KVStoreTests.swift */; };
+		07C761C91CFC539800859E92 /* NDSQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C761C81CFC539800859E92 /* NDSQLiteDatabase.swift */; };
+		07C761CC1CFC6C8500859E92 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C761CB1CFC6C8500859E92 /* libsqlite3.0.tbd */; };
+		07C761CF1CFD549900859E92 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C761CE1CFD549900859E92 /* Person.swift */; };
+		E00DDAAC1D05E6530007B31F /* NDKVStoreProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00DDAAB1D05E6530007B31F /* NDKVStoreProtocols.swift */; };
+		E05098381D04A93600874469 /* NDSQLiteKVStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05098371D04A93600874469 /* NDSQLiteKVStore.swift */; };
+		E0A438871CFCA765005C723F /* NDSQLiteKVStoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A438861CFCA765005C723F /* NDSQLiteKVStoreCoordinator.swift */; };
+		E0A4388B1CFCBA00005C723F /* NDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A4388A1CFCBA00005C723F /* NDConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C761B91CFC515500859E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C7619C1CFC515500859E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C761A31CFC515500859E92;
+			remoteInfo = KVStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071473771D0AEBB400A3A847 /* NDUserDefaultsKVStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDUserDefaultsKVStore.swift; sourceTree = "<group>"; };
+		07C761A41CFC515500859E92 /* KVStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C761A71CFC515500859E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07C761A91CFC515500859E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07C761AC1CFC515500859E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C761AE1CFC515500859E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07C761B11CFC515500859E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07C761B31CFC515500859E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C761B81CFC515500859E92 /* KVStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C761BC1CFC515500859E92 /* KVStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVStoreTests.swift; sourceTree = "<group>"; };
+		07C761BE1CFC515500859E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C761C81CFC539800859E92 /* NDSQLiteDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDSQLiteDatabase.swift; sourceTree = "<group>"; };
+		07C761CA1CFC640100859E92 /* KVStore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVStore-Bridging-Header.h"; sourceTree = "<group>"; };
+		07C761CB1CFC6C8500859E92 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		07C761CE1CFD549900859E92 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E00DDAAB1D05E6530007B31F /* NDKVStoreProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDKVStoreProtocols.swift; sourceTree = "<group>"; };
+		E05098371D04A93600874469 /* NDSQLiteKVStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDSQLiteKVStore.swift; sourceTree = "<group>"; };
+		E0A438861CFCA765005C723F /* NDSQLiteKVStoreCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDSQLiteKVStoreCoordinator.swift; sourceTree = "<group>"; };
+		E0A4388A1CFCBA00005C723F /* NDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C761A11CFC515500859E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C761CC1CFC6C8500859E92 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C761B51CFC515500859E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071473751D0ACBD800A3A847 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				E05098371D04A93600874469 /* NDSQLiteKVStore.swift */,
+				E0A438861CFCA765005C723F /* NDSQLiteKVStoreCoordinator.swift */,
+				07C761C81CFC539800859E92 /* NDSQLiteDatabase.swift */,
+			);
+			name = SQLite;
+			sourceTree = "<group>";
+		};
+		071473761D0AE0A600A3A847 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				071473771D0AEBB400A3A847 /* NDUserDefaultsKVStore.swift */,
+			);
+			name = UserDefaults;
+			sourceTree = "<group>";
+		};
+		07A7D9F91D6340D000B66522 /* iOS-KVStore */ = {
+			isa = PBXGroup;
+			children = (
+				E0A438881CFCB872005C723F /* Utility */,
+				E0A438851CFCA4C7005C723F /* TranslationLayer */,
+			);
+			name = "iOS-KVStore";
+			sourceTree = "<group>";
+		};
+		07C7619B1CFC515500859E92 = {
+			isa = PBXGroup;
+			children = (
+				07C761CB1CFC6C8500859E92 /* libsqlite3.0.tbd */,
+				07C761A61CFC515500859E92 /* KVStore */,
+				07C761BB1CFC515500859E92 /* KVStoreTests */,
+				07C761A51CFC515500859E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07C761A51CFC515500859E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C761A41CFC515500859E92 /* KVStore.app */,
+				07C761B81CFC515500859E92 /* KVStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C761A61CFC515500859E92 /* KVStore */ = {
+			isa = PBXGroup;
+			children = (
+				07A7D9F91D6340D000B66522 /* iOS-KVStore */,
+				07C761CD1CFD547100859E92 /* Model */,
+				E0A438841CFCA480005C723F /* Other */,
+				E0A438831CFCA444005C723F /* Controller */,
+				E0A438821CFCA43D005C723F /* Layout */,
+				07C761AE1CFC515500859E92 /* Assets.xcassets */,
+				07C761B31CFC515500859E92 /* Info.plist */,
+				07C761CA1CFC640100859E92 /* KVStore-Bridging-Header.h */,
+			);
+			path = KVStore;
+			sourceTree = "<group>";
+		};
+		07C761BB1CFC515500859E92 /* KVStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C761BC1CFC515500859E92 /* KVStoreTests.swift */,
+				07C761BE1CFC515500859E92 /* Info.plist */,
+			);
+			path = KVStoreTests;
+			sourceTree = "<group>";
+		};
+		07C761CD1CFD547100859E92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07C761CE1CFD549900859E92 /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0A438821CFCA43D005C723F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				07C761AB1CFC515500859E92 /* Main.storyboard */,
+				07C761B01CFC515500859E92 /* LaunchScreen.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		E0A438831CFCA444005C723F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07C761A91CFC515500859E92 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0A438841CFCA480005C723F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				07C761A71CFC515500859E92 /* AppDelegate.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E0A438851CFCA4C7005C723F /* TranslationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				071473751D0ACBD800A3A847 /* SQLite */,
+				071473761D0AE0A600A3A847 /* UserDefaults */,
+				E00DDAAB1D05E6530007B31F /* NDKVStoreProtocols.swift */,
+			);
+			name = TranslationLayer;
+			sourceTree = "<group>";
+		};
+		E0A438881CFCB872005C723F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E0A4388A1CFCBA00005C723F /* NDConstants.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C761A31CFC515500859E92 /* KVStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C761C11CFC515500859E92 /* Build configuration list for PBXNativeTarget "KVStore" */;
+			buildPhases = (
+				07C761A01CFC515500859E92 /* Sources */,
+				07C761A11CFC515500859E92 /* Frameworks */,
+				07C761A21CFC515500859E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVStore;
+			productName = KVStore;
+			productReference = 07C761A41CFC515500859E92 /* KVStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C761B71CFC515500859E92 /* KVStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C761C41CFC515500859E92 /* Build configuration list for PBXNativeTarget "KVStoreTests" */;
+			buildPhases = (
+				07C761B41CFC515500859E92 /* Sources */,
+				07C761B51CFC515500859E92 /* Frameworks */,
+				07C761B61CFC515500859E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C761BA1CFC515500859E92 /* PBXTargetDependency */,
+			);
+			name = KVStoreTests;
+			productName = KVStoreTests;
+			productReference = 07C761B81CFC515500859E92 /* KVStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C7619C1CFC515500859E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Helpshift;
+				TargetAttributes = {
+					07C761A31CFC515500859E92 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					07C761B71CFC515500859E92 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 07C761A31CFC515500859E92;
+					};
+				};
+			};
+			buildConfigurationList = 07C7619F1CFC515500859E92 /* Build configuration list for PBXProject "KVStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C7619B1CFC515500859E92;
+			productRefGroup = 07C761A51CFC515500859E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C761A31CFC515500859E92 /* KVStore */,
+				07C761B71CFC515500859E92 /* KVStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C761A21CFC515500859E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C761B21CFC515500859E92 /* LaunchScreen.storyboard in Resources */,
+				07C761AF1CFC515500859E92 /* Assets.xcassets in Resources */,
+				07C761AD1CFC515500859E92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C761B61CFC515500859E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C761A01CFC515500859E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00DDAAC1D05E6530007B31F /* NDKVStoreProtocols.swift in Sources */,
+				E05098381D04A93600874469 /* NDSQLiteKVStore.swift in Sources */,
+				07C761CF1CFD549900859E92 /* Person.swift in Sources */,
+				E0A4388B1CFCBA00005C723F /* NDConstants.swift in Sources */,
+				071473781D0AEBB400A3A847 /* NDUserDefaultsKVStore.swift in Sources */,
+				07C761C91CFC539800859E92 /* NDSQLiteDatabase.swift in Sources */,
+				E0A438871CFCA765005C723F /* NDSQLiteKVStoreCoordinator.swift in Sources */,
+				07C761AA1CFC515500859E92 /* ViewController.swift in Sources */,
+				07C761A81CFC515500859E92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C761B41CFC515500859E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C761BD1CFC515500859E92 /* KVStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C761BA1CFC515500859E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C761A31CFC515500859E92 /* KVStore */;
+			targetProxy = 07C761B91CFC515500859E92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C761AB1CFC515500859E92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C761AC1CFC515500859E92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07C761B01CFC515500859E92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C761B11CFC515500859E92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C761BF1CFC515500859E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07C761C01CFC515500859E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C761C21CFC515500859E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndamle.KVStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KVStore/KVStore-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		07C761C31CFC515500859E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndamle.KVStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KVStore/KVStore-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		07C761C51CFC515500859E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KVStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndamle.KVStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVStore.app/KVStore";
+			};
+			name = Debug;
+		};
+		07C761C61CFC515500859E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KVStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ndamle.KVStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVStore.app/KVStore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C7619F1CFC515500859E92 /* Build configuration list for PBXProject "KVStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C761BF1CFC515500859E92 /* Debug */,
+				07C761C01CFC515500859E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C761C11CFC515500859E92 /* Build configuration list for PBXNativeTarget "KVStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C761C21CFC515500859E92 /* Debug */,
+				07C761C31CFC515500859E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C761C41CFC515500859E92 /* Build configuration list for PBXNativeTarget "KVStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C761C51CFC515500859E92 /* Debug */,
+				07C761C61CFC515500859E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C7619C1CFC515500859E92 /* Project object */;
+}
