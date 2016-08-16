@@ -8,9 +8,9 @@
 * Version: 1.0
 
 * Requirements:
-   - iOS 8.0+
-   - Swift 2.2.1
-   - Xcode 7.3+
+   iOS 8.0+
+   Swift 2.2.1
+   Xcode 7.3+
    
 * Installation
 	Manual
